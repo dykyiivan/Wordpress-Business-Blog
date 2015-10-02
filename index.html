@@ -5,22 +5,25 @@
 	<title>Wordpress-Bussines-Blog</title>
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="libs/jquery/jquery-1.11.3.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
 		<header class="top-header">
-				<ul class="social">
-					<li><a class="facebook social-link" href="#"></a></li>
-					<li><a class="twitter social-link" href="#"></a></li>
-					<li><a class="linkedin social-link" href="#"></a></li>
-					<li><a class="myspace social-link" href="#"></a></li>
-					<li><a class="blogger social-link" href="#"></a></li>
-					<li><a class="delicious social-link" href="#"></a></li>
-					<li><a class="youtube social-link" href="#"></a></li>
-					<li><a class="yahoo social-link" href="#"></a></li>
-				</ul>
-				<p class="phone">(000) 123-456-7890</p>
+			<ul class="social">
+				<li><a class="facebook social-link" href="#"></a></li>
+				<li><a class="twitter social-link" href="#"></a></li>
+				<li><a class="linkedin social-link" href="#"></a></li>
+				<li><a class="myspace social-link" href="#"></a></li>
+				<li><a class="blogger social-link" href="#"></a></li>
+				<li><a class="delicious social-link" href="#"></a></li>
+				<li><a class="youtube social-link" href="#"></a></li>
+				<li><a class="yahoo social-link" href="#"></a></li>
+			</ul>
+			<p class="phone">(000) 123-456-7890</p>
 		</header>
 		<div class="main-wrapper">
 			<header>
@@ -45,6 +48,65 @@
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</header>
+			<section class="slider">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+					</ol>
+					<!-- Обгортка для слайдів -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="images/slider-img.jpg" alt="Slider-1">
+							<div class="carousel-caption">
+								<h3>Insert your headline here</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin, nibh quis suscipit euismod, dui justo laoreet magna, at accumsan tortor mi et neque.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="images/slider-img.jpg" alt="Slider-2">
+							<div class="carousel-caption">
+								<h3>Insert your headline here</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin, nibh quis suscipit euismod, dui justo laoreet magna, at accumsan tortor mi et neque.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="images/slider-img.jpg" alt="Slider-2">
+							<div class="carousel-caption">
+								<h3>Insert your headline here</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin, nibh quis suscipit euismod, dui justo laoreet magna, at accumsan tortor mi et neque.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="images/slider-img.jpg" alt="Slider-2">
+							<div class="carousel-caption">
+								<h3>Insert your headline here</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin, nibh quis suscipit euismod, dui justo laoreet magna, at accumsan tortor mi et neque.</p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="images/slider-img.jpg" alt="Slider-2">
+							<div class="carousel-caption">
+								<h3>Insert your headline here</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin, nibh quis suscipit euismod, dui justo laoreet magna, at accumsan tortor mi et neque.</p>
+							</div>
+						</div>
+					</div>
+					<!-- Управління -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="left-controller" aria-hidden="true"></span>
+						<span class="sr-only">Попередній</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="right-controller" aria-hidden="true"></span>
+						<span class="sr-only">Наступний</span>
+					</a>
+				</div>
+			</section>
 		</div>
 	</div>
 </body>
